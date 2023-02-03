@@ -1,0 +1,80 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 80%;
+}
+
+.greeting {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.todo-input {
+  text-align: center;
+  padding: 5px;
+}
+
+.todo-list {
+  font-weight: 600;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.todo-list span {
+  margin-right: 6px;
+}
+
+.todo-input {
+  border: none;
+  opacity: 90%;
+}
+
+.todo-list li::before {
+  content: "\1F95E";
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.todo-list button {
+  font-size: 20px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.weather {
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px 5px;
+}
+
+.quotes {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.clock {
+  font-size: 50px;
+}

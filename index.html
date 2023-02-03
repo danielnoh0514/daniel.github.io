@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/6a128c1ec5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="hidden login-form">
+      <input
+        type="text"
+        placeholder="What is your name?"
+        required
+        maxlength="15"
+      />
+      <button>Log In</button>
+    </form>
+    <h1 class="hidden greeting"></h1>
+    <h2 class="clock">00:00:00</h2>
+
+    <form class="todo-form">
+      <input
+        required
+        class="todo-input"
+        type="text"
+        placeholder="Insert Your To Do"
+      />
+    </form>
+    <ul class="todo-list"></ul>
+
+    <div class="quotes">
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="weather">
+      <span></span>
+      <span></span>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo-list.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
